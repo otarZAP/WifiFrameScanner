@@ -1,0 +1,22 @@
+# PlatformIO build cache (never commit)
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Secrets — fill from the *.example.h template (never commit)
+secrets.h
+**/secrets.h
+
+# Build artifacts
+*.bin
+*.elf
+*.hex
+*.map
+*.pcap
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
